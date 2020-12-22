@@ -1,0 +1,17 @@
+#Tick{
+  transform: rotate(360deg);
+  transform-origin: 50% 148%;
+  transition: all 0.8s ease-in;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+svg > #TimerSVG{
+  opacity: 0.99;
+}
